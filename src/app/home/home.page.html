@@ -1,20 +1,41 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="fundo" [fullscreen]="true">
+  <div class="espaco">
+    <ion-row style="margin-top: 235px">
+      <ion-label position="floating">Petshop</ion-label>
+      <ion-input type="text" expand="block" style="color: rgb(50, 50, 155)">
+      </ion-input>
+    </ion-row>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <ion-row>
+      <ion-col>
+        <ion-item class="roundedInput" line="none">
+          <ion-label position="floating"
+            >Nome <span style="color: red">*</span></ion-label
+          >
+          <ion-input
+            type="text"
+            expand="block"
+            style="color: #222"
+            placeholder="****"
+          ></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-row>
+      <ion-col>
+        <ion-item class="roundedInput" line="none">
+          <ion-label position="floating"
+            >Idade <span style="color: red">*</span></ion-label
+          >
+          <ion-input
+            type="text"
+            expand="block"
+            style="color: #222"
+            placeholder="****"
+          ></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
   </div>
 </ion-content>
